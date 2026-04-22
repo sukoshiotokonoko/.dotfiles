@@ -1,0 +1,102 @@
+@import "colors-waybar.css";
+
+/* BG = Color11 (@background) | FG = Color12 (@foreground) | Module BG = Color9 (@color9) */
+
+* {
+	border: none;
+	border-radius: 0;
+	font-family: comic mono;
+	font-size: 20px;
+	min-height: 0px;
+}
+
+window#waybar {
+    background: transparent;
+    border-radius: 26px;
+}
+
+/* Modules Left */
+
+#workspaces {
+    margin: 1px 5px;
+    padding-right: 6px;
+    border-radius: 26px;
+    font-size: 24px;
+    background: @background;
+    color: @foreground;
+}
+
+.modules-left {
+	padding: 6px 6px;
+	border-radius: 26px;
+	margin: 5px 0;
+	opacity: 1;
+    background: @color9;
+}
+
+/* Modules Center */
+
+#clock {
+    padding: 0px 20px;
+	border-radius: 26px;
+    background: @background;
+	color: @foreground;
+}
+
+.modules-center {
+    padding: 6px 6px;
+    border-radius: 26px;
+    margin: 5px 0;
+    opacity: 1;
+    background: @color9;
+}
+
+/* Modules Right */
+
+#bluetooth {
+    margin: 1px 5px;
+    padding: 1px 12px;
+    border-radius: 26px;
+    font-size: 30px;
+    background: @background;
+    color: @foreground;
+}
+
+#network {
+    margin: 1px 5px;
+    padding-left: 11px;
+    padding-right: 19px;
+    border-radius: 26px;
+    font-size: 24px;
+    background: @background;
+    color: @foreground;
+}
+
+#tray {
+    margin: 1px 5px;
+    padding: 0px 10px;
+    border-radius: 26px;
+    font-size: 24px;
+    background: @background;
+    color: @foreground;
+}
+
+#cpu, #memory  {
+	margin: 1px 5px;
+    padding-top: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 4px;
+    border-radius: 26px;
+	font-size: 24px;
+    background: @background;
+    color: @foreground;
+}
+
+.modules-right {
+	padding: 6px 6px;
+	border-radius: 26px;
+	margin: 5px 0;
+	opacity: 1;
+    background: @color9;
+}

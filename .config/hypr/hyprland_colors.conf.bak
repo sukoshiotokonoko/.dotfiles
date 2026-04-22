@@ -1,0 +1,2 @@
+$inactive_gen = rgb({color12.strip})
+$active_gen = rgb({color11.strip})

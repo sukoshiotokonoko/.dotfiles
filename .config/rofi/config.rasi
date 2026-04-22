@@ -1,0 +1,6 @@
+@import "wpg.rasi"
+
+configuration {
+	run-shell-command: "kitty --hold {cmd}";
+    show-icons: true;
+}
