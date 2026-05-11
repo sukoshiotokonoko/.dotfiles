@@ -1,0 +1,7 @@
+[[plugin.deps]]
+use = "uhs-robert/sshfs"
+rev = "e487f07"
+hash = "d202c6aae8adf370815a2a3d888d23dc"
+
+[flavor]
+deps = []
