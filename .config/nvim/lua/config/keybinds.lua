@@ -41,6 +41,9 @@ kmap("n", "<A-j>", "<C-w>J")
 kmap("n", "<A-k>", "<C-w>K")
 kmap("n", "<A-l>", "<C-w>L")
 
+kmap("n", "<C-/>", ":%s//g<Left><Left>", {})
+kmap("n", "<A-/>", ":%s/<C-r><C-w>//g<Left><Left>", {})
+
 kmap("n", "<leader>ee", ":lua vim.diagnostic.open_float()<CR>", { desc = "Expand Errors" })
 
 -- Directory-Specific Keybinds
